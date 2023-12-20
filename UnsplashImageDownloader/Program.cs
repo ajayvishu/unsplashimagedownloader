@@ -5,7 +5,6 @@ namespace UnsplashImageDownloader
 {
     static class Program
     {
-        //33333
         [STAThread]
         static void Main()
         {
