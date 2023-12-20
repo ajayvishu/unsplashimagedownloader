@@ -18,7 +18,7 @@ namespace UnsplashImageDownloader
         private async void button1_Click(object sender, EventArgs e)
         {
             txtProgress.Visible = true;
-            txtProgress.Text = "Downloading Images....";
+            txtProgress.Text = "Downloading Images.....";
 
             List<string> imageUrls = await GenerateHighResolutionImageUrlsAsync(5);
 
