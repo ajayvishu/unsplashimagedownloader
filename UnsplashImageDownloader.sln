@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.34112.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnsplashImageDownloader", "UnsplashImageDownloader\UnsplashImageDownloader.csproj", "{CA802A6A-AD7F-4957-B8AB-5F793CCE879F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA802A6A-AD7F-4957-B8AB-5F793CCE879F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA802A6A-AD7F-4957-B8AB-5F793CCE879F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA802A6A-AD7F-4957-B8AB-5F793CCE879F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA802A6A-AD7F-4957-B8AB-5F793CCE879F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73F56DB5-E107-4CA1-8168-7595F25952F9}
+	EndGlobalSection
+EndGlobal
