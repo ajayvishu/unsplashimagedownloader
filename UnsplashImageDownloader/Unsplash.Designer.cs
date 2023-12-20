@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.txtProgress = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -42,22 +42,22 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // label1
+            // txtProgress
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(100, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(35, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "label1";
-            this.label1.Visible = false;
+            this.txtProgress.AutoSize = true;
+            this.txtProgress.Location = new System.Drawing.Point(100, 9);
+            this.txtProgress.Name = "txtProgress";
+            this.txtProgress.Size = new System.Drawing.Size(35, 13);
+            this.txtProgress.TabIndex = 1;
+            this.txtProgress.Text = "label1";
+            this.txtProgress.Visible = false;
             // 
             // Unsplash
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(317, 83);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtProgress);
             this.Controls.Add(this.button1);
             this.Name = "Unsplash";
             this.Text = "Unsplash image URLs download";
@@ -69,7 +69,7 @@
         #endregion
 
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label txtProgress;
     }
 }
 
